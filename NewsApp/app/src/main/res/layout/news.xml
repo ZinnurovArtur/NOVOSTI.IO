@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+
+>
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/card"
+            app:cardCornerRadius="10dp">
+        <FrameLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="200dp">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:id="@+id/image"
+
+                   
+                    android:focusable="auto"
+                    android:scaleType="centerCrop"
+
+
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="true"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/gradient_shadow"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/politics_type"
+                      android:textSize="23sp"
+                      android:padding="12dp"
+                      android:shadowColor="@color/black"
+                      android:shadowDx="4"
+                      android:shadowDy="4"
+                      android:shadowRadius="2"
+                      android:fontFamily="@font/poppins_semibold"
+                      android:layout_marginStart="20dp"
+                      android:textColor="@color/white"
+                      android:maxLines="4"
+                      android:id="@+id/title">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                          android:layout_height="match_parent"
+
+                          android:textSize="16sp"
+                          android:padding="10dp"
+                          android:layout_marginStart="20dp"
+                          android:fontFamily="@font/poppins_semibold"
+                          android:shadowColor="@color/white"
+                          android:shadowDx="1"
+                          android:shadowDy="1"
+                          android:shadowRadius="2"
+                          android:maxLength="20"
+                          android:textAllCaps="true"
+                          android:ellipsize="end"
+
+
+                          android:textColor="@color/cardview_light_background"
+                          android:id="@+id/sammury">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="right"
+
+                          android:textSize="19sp"
+                          android:padding="10dp"
+                          android:layout_marginStart="20dp"
+                          android:fontFamily="@font/poppins_semibold"
+
+                          android:shadowColor="@color/white"
+                          android:shadowDx="1"
+                          android:shadowDy="1"
+                          android:shadowRadius="2"
+
+
+
+                          android:textColor="@color/cardview_light_background"
+                          android:id="@+id/topic">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </FrameLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

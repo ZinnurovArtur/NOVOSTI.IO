@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:background="?attr/bgColor"
+        tools:context=".SettingsActivity"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/settings_linear"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/icon_theme"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:paddingTop="8dp"
+                android:layout_margin="30dp"
+                android:backgroundTint="@color/RoyalPurple"
+                android:paddingBottom="8dp"
+
+                android:background="@drawable/ic_baseline_brightness_4_24"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+
+
+        <TextView
+                android:id="@+id/text_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/poppins_bold"
+
+
+                android:maxLines="1"
+                android:text="@string/change_theme"
+                android:textSize="12sp"
+
+                android:textAppearance="?attr/textAppearanceSubtitle1"
+                android:textColor="?attr/textColor"/>
+        <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/switch_bar"
+                app:switchMinWidth="20dp"
+                app:switchTextAppearance="@style/AppTheme"
+
+                android:theme="@style/AppTheme"
+                android:textOff="@string/off"
+                android:textOn="@string/on"
+                android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.SwitchCompat>
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

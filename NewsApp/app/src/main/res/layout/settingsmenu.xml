@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:backgroundTint="?attr/cardview"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/card"
+            app:cardCornerRadius="10dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:id="@+id/linear_download"
+
+
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/download_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:paddingTop="8dp"
+                    android:layout_margin="30dp"
+                    android:backgroundTint="?attr/icons"
+                    android:paddingBottom="8dp"
+
+                    android:background="@drawable/ic_baseline_cloud_download_24"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"/>
+
+            <TextView
+                    android:id="@+id/text_download"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/poppins_bold"
+
+
+                    android:maxLines="1"
+                    android:text="@string/downloaded_files"
+                    android:textSize="12sp"
+
+                    android:textAppearance="?attr/textAppearanceSubtitle1"
+                    android:textColor="?attr/textColor"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="?attr/cardview"
+            android:clickable="true"
+            android:id="@+id/card2"
+            app:cardCornerRadius="10dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:id="@+id/linear_settings"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/mtrl_list_item_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:paddingTop="8dp"
+                android:layout_margin="30dp"
+                android:backgroundTint="?attr/icons"
+                android:paddingBottom="8dp"
+
+                android:background="@drawable/ic_baseline_settings_24"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+
+        <TextView
+                android:id="@+id/mtrl_list_item_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:maxLines="1"
+                android:text="@string/settings"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="12sp"
+
+                android:textAppearance="?attr/textAppearanceSubtitle1"
+                android:textColor="?attr/textColor"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="?attr/cardview"
+            android:clickable="true"
+            android:id="@+id/card3"
+            app:cardCornerRadius="10dp">
+        <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:id="@+id/sign_out"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/signOut"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:paddingTop="8dp"
+                    android:layout_margin="30dp"
+                    android:backgroundTint="?attr/icons"
+                    android:paddingBottom="8dp"
+
+                    android:background="@drawable/ic_baseline_exit_to_app_24"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"/>
+
+            <TextView
+                    android:id="@+id/text_exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+
+                    android:maxLines="1"
+                    android:text="@string/exit_from_account"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="12sp"
+
+                    android:textAppearance="?attr/textAppearanceSubtitle1"
+                    android:textColor="?attr/textColor"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

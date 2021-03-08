@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- App bar setting-->
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:id="@+id/title_layoute"
+              android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="24sp"
+            android:textFontWeight="150"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"/>
+
+</LinearLayout>

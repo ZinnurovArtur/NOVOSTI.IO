@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/account_button"
+          android:icon="@drawable/ic_baseline_account_circle_24"
+
+          android:title="@string/account">
+
+    </item>
+    <item android:id="@+id/news_button"
+          android:icon="@drawable/icons8_news"
+          android:title="@string/news"
+
+          >
+
+    </item>
+    <item android:id="@+id/menu_button"
+          android:icon="@drawable/ic_baseline_menu_24"
+
+          android:title="@string/menu">
+
+    </item>
+
+
+</menu>

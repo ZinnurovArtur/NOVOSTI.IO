@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Novost.io</string>
+    <string name="politics_type">New elections to announce</string>
+    <string name="dummy_data">article summary</string>
+    <string name="politics_topic">Politics</string>
+    <string name="downloaded_files">Downloaded News</string>
+    <string name="settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="menu">Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="news">News</string>
+    <string name="title">Title</string>
+    <string name="read_more">Read More</string>
+    <string name="exit_from_account">Exit from account</string>
+    <string name="change_theme">Change theme</string>
+    <string name="off">OFF</string>
+    <string name="on">on</string>
+</resources>
